@@ -1,0 +1,4 @@
+name = "comments"
+main = "src/index.ts"
+compatibility_date = "2023-06-11"
+workers_dev = false

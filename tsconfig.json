@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"lib": ["ESNext", "WebWorker"],
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"allowJs": true,
+		"checkJs": true,
+		"noEmit": true,
+		"isolatedModules": true,
+		"strict": true
+	}
+}
