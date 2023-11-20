@@ -66,7 +66,7 @@ async function getUserInfo(req: Request, _env: Env): Promise<Response> {
 
   const headers = new Headers();
   headers.append('Accept', 'application/vnd.github+json');
-  headers.append('User-Agent', 'comments.fullstackjam.com');
+  headers.append('User-Agent', 'comments.fullstackjam.dev');
   headers.append('X-GitHub-Api-Version', '2022-11-28');
   headers.append('Authorization', `Bearer ${token}`);
 
@@ -83,7 +83,7 @@ async function getComments(req: Request, env: Env): Promise<Response> {
 
   const headers = new Headers();
   headers.append('Accept', 'application/vnd.github+json');
-  headers.append('User-Agent', 'comments.fullstackjam.com');
+  headers.append('User-Agent', 'comments.fullstackjam.dev');
   headers.append('X-GitHub-Api-Version', '2022-11-28');
 
   const token = url.searchParams.get('github_access_token');
@@ -131,7 +131,7 @@ async function postComment(req: Request, env: Env): Promise<Response> {
 
   const headers = new Headers();
   headers.append('Accept', 'application/vnd.github+json');
-  headers.append('User-Agent', 'comments.fullstackjam.com');
+  headers.append('User-Agent', 'comments.fullstackjam.dev');
   headers.append('X-GitHub-Api-Version', '2022-11-28');
   headers.append('Authorization', `Bearer ${token}`);
 
