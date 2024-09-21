@@ -9,3 +9,4 @@ code is from [https://github.com/EAimTY/comments.eaimty.com](https://github.com/
 `wrangler deploy` to deploy
 
 add custome domain for your workers
+add variables for GITHUB_APP_CLIENT_ID, GITHUB_APP_CLIENT_SECRET, REPO
