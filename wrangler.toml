@@ -2,3 +2,6 @@ name = "comments"
 main = "src/index.ts"
 compatibility_date = "2023-06-11"
 workers_dev = false
+
+[vars]
+GITHUB_APP_CLIENT_ID = "Iv1.c691892e49e188d3"
