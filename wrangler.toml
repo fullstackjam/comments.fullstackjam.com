@@ -5,3 +5,4 @@ workers_dev = false
 
 [vars]
 GITHUB_APP_CLIENT_ID = "Iv1.c691892e49e188d3"
+REPO = "fullstackjam/blog"
